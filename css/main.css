@@ -5,3 +5,29 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  font-family: Open-Sans, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+div {
+  border-right: 1px solid #333;
+}
